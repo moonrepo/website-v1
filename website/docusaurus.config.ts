@@ -62,7 +62,7 @@ const config: Config = {
 		algolia: {
 			apiKey: 'dfe3e44100d7dfc6d7d3b644e8b09581',
 			appId: '400S075OEM',
-			indexName: 'moonrepo',
+			indexName: 'moonrepo-v1',
 		},
 		metadata: [
 			{

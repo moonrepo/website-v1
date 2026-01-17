@@ -37,7 +37,7 @@ export default function Home() {
 					color="text-blurple-400"
 					suptitle="A system for a solid foundation"
 					title="Supercharge your codebase"
-					logo={<img src="/brand/moon/icon.svg" height={75} className="block" />}
+					logo={<img src={`${siteConfig.baseUrl}brand/moon/icon.svg`} height={75} className="block" />}
 					description={
 						<>
 							For repositories with multiple projects, any number of languages, and team members
@@ -87,7 +87,7 @@ export default function Home() {
 					color="text-pink-600"
 					suptitle="A toolchain for the modern era"
 					title="Automate your environments"
-					logo={<img src="/brand/proto/icon.svg" height={75} className="block" />}
+					logo={<img src={`${siteConfig.baseUrl}brand/proto/icon.svg`} height={75} className="block" />}
 					description={
 						<>
 							Remove the hassle of managing and enforcing specific versions of programming languages
@@ -133,7 +133,7 @@ export default function Home() {
 					color="text-teal-700"
 					suptitle="A service to expand to the cloud"
 					title="Accelerate your pipelines"
-					logo={<img src="/brand/moonbase/icon.svg" height={75} className="block" />}
+					logo={<img {`${siteConfig.baseUrl}brand/moonbase/icon.svg`| height={75} className="block" />}
 					description={
 						<>
 							With our hosted service{' '}
