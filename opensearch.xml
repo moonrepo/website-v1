@@ -4,8 +4,8 @@
   <ShortName>moonrepo</ShortName>
   <Description>Search moonrepo</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://moonrepo.dev/img/favicon.svg</Image>
-  <Url type="text/html" method="get" template="https://moonrepo.dev/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://moonrepo.dev/opensearch.xml" />
-  <moz:SearchForm>https://moonrepo.dev/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://moonrepo.dev/website-v1/img/favicon.svg</Image>
+  <Url type="text/html" method="get" template="https://moonrepo.dev/website-v1/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://moonrepo.dev/website-v1/opensearch.xml" />
+  <moz:SearchForm>https://moonrepo.dev/website-v1/</moz:SearchForm>
 </OpenSearchDescription>
