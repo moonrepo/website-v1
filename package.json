@@ -6,6 +6,7 @@
     "website"
   ],
   "scripts": {
+    "docs": "yarn workspace website run start",
     "lint": "eslint ./website",
     "typecheck": "tsc --build"
   },
