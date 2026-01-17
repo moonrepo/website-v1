@@ -1,8 +1,4 @@
-/target
-/wasm/target
-/wasm/*/target
 node_modules/
-bazel-remote
 
 # Yarn
 .yarn/*
@@ -31,25 +27,3 @@ dist/
 *.min.js
 *.tsbuildinfo
 tailwind.config.d.ts
-
-# moon
-.moon/cache
-.moon/docker
-packages/*/moon
-packages/*/moon.exe
-/moon
-/moon.exe
-
-# moon tests/fixtures
-tests/fixtures/*/.moon/cache
-tests/fixtures/*/.yarn
-tests/fixtures/rust/*/target/
-tests/repros/*/.moon/cache
-
-# Debug and profiling cruft
-*.profraw
-*profdata
-dockerManifest.json
-
-# vscode
-.vscode/settings.json

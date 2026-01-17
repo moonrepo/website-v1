@@ -6,7 +6,7 @@
   "compilerOptions": {
     "emitDeclarationOnly": true,
     "noEmit": false,
-    "outDir": "../.moon/cache/types/website",
+    "outDir": "./build",
     "verbatimModuleSyntax": false,
     "baseUrl": ".",
     "paths": {
@@ -24,13 +24,5 @@
   ],
   "exclude": [
     "**/*.mdx"
-  ],
-  "references": [
-    {
-      "path": "../packages/runtime"
-    },
-    {
-      "path": "../packages/types"
-    }
   ]
 }

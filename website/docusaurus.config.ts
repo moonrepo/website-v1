@@ -249,15 +249,6 @@ const config: Config = {
 				],
 			},
 		],
-		// [
-		// 	'docusaurus-plugin-typedoc-api',
-		// 	{
-		// 		projectRoot: path.join(__dirname, '..'),
-		// 		packages: ['packages/report', 'packages/runtime', 'packages/types'],
-		// 		minimal: true,
-		// 		readmes: true,
-		// 	},
-		// ],
 		function tailwind() {
 			return {
 				name: 'docusaurus-tailwindcss',

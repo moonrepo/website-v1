@@ -9,18 +9,11 @@
   },
   "include": [
     "**/.eslintrc.cjs",
-    "packages/*/src/**/*",
-    "packages/*/tests/**/*",
-    "packages/*/types/**/*",
-    "packages/*/*.cjs",
-    "packages/*/*.ts",
-    "scripts/**/*",
     "website/src/**/*",
     "website/*.js",
     "website/*.ts",
   ],
   "exclude": [
-    "**/*.css",
-    "packages/*/tsconfig.json"
+    "**/*.css"
   ]
 }

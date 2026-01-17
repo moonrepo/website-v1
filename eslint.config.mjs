@@ -19,18 +19,9 @@ const config = defineConfig([
 		'**/*.mdx',
 		'**/*.css',
 		'**/*.html',
-
-		// It's buggy!
-		'packages/visualizer/**/*',
 	]),
 	...moonConfig,
 	...moonNodeConfig,
-	{
-		files: ['packages/types/**/*'],
-		rules: {
-			'unicorn/no-abusive-eslint-disable': 'off',
-		},
-	},
 	{
 		files: ['scripts/**/*'],
 		rules: {

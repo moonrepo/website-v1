@@ -3,18 +3,6 @@
   "files": [],
   "references": [
     {
-      "path": "packages/report"
-    },
-    {
-      "path": "packages/runtime"
-    },
-    {
-      "path": "packages/types"
-    },
-    {
-      "path": "packages/visualizer"
-    },
-    {
       "path": "website"
     }
   ]
