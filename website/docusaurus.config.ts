@@ -60,8 +60,8 @@ const config: Config = {
 
 	themeConfig: {
 		algolia: {
-			apiKey: 'dfe3e44100d7dfc6d7d3b644e8b09581',
-			appId: '400S075OEM',
+			apiKey: '5af695c1316a61b21cb1679053842019',
+			appId: 'B503XQGEC9',
 			indexName: 'moonrepo-v1',
 		},
 		metadata: [
